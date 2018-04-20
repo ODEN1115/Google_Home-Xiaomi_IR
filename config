@@ -1,0 +1,16 @@
+# If necessary, you have to change these parameters.
+
+title = "Config file for gh2miir"
+
+# irtoken is your Xiaomi Universal IR Remote Controller's token.
+[client]
+ipaddress = "xxx.xxx.xxx.xxx"
+irtoken = "xxxxxxxxxxxxxxxx"
+
+# topic format is "topic name/resource name"
+# chtoken is your Xiaomi Universal IR Remote Controller's token.
+[server]
+site = "api.beebotte.com"
+port = "xxxx"
+topic = "xxxxx/xxxxx"
+chtoken = "xxxxxxxxxxxxxxxxxxxxxx"
